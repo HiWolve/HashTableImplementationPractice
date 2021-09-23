@@ -79,7 +79,16 @@ class HashTable { // get O(1), set O(1), delete O(1)
   resize() {
 
     // Fill this in
-    
+    let length = this.capacity;
+    for (let i = 0; i < this.data.capacity; i++){
+      let newBucket = null;
+      this.data.push(newBucket);
+      this.capacity ++;
+      length ++;
+
+    }
+
+    return;
 
   }
 
